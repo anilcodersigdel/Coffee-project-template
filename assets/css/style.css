@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+/* Navigation Bar */
+
+nav{
+    padding: 30px;
+    width: 100%;
+     display: flex; 
+     align-items: center;
+     justify-content: space-between;
+}
+
+nav .logo{
+    margin: 15px 34px;
+    font-size: 2.8rem;
+}
+
+nav .logo:hover{
+    color: rgb(223, 142, 22);
+}
+
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+} 
+
+nav ul li{
+    list-style-type: none;
+    font-size: 1.3rem;
+}
+
+nav  a{
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+span{
+    color: rgb(223, 142, 22);
+}
+
+body{
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+}
+   
+nav ul li a:hover{
+    color: aqua;
+}
+
+/* Body section */
+
+
+.body-container{
+    padding: 80px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.content{
+    /* border: 2px solid red; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1.5rem ;
+}
+.body-container p{
+    font-size: 1.1rem;
+}
+
+
+
+
+/* utility class */
+.h-primary{
+    font-size: 2.8rem;
+}
+
+
+
+.btn{
+    width: 25%;
+    color: black;
+    padding: 8px 5px;
+    border: 1px solid white;
+    border-radius: 8px;
+} 
+.btn:hover{
+    background-color: rgb(223, 142, 22);
+}
+
+
+
